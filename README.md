@@ -1,6 +1,6 @@
 # python3_interface
 
-（1）case：存放测试用例数据的，比如请求类型get/post、请求url、请求header、请求数据等；
+（1）case：存放测试用例设置的，比如请求类型get/post、请求url、处理请求header、请求数据等；
 
 （2）data：获取excel文件中相应数据的方法封装，获取excel中对应表格内的数据，excel的行列数据等：get_data.py；判断用例之间是否存在依赖关系并获取依赖数据：dependent_data.py；初始化excel文件：data_config.py；
 
